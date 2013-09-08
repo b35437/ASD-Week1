@@ -25,7 +25,7 @@ $('#levelSearch').on('pageinit', function(){
 });
 
 $('#about').on('pageinit', function(){
-	<!-- Tab function on about page -->
+	<!---- Tab function on about page ---->
 	$('#about').delegate('.ui-navbar a', 'click', function () {
     	$(this).addClass('ui-btn-active');
     	$('.content_div').hide();
